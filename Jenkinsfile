@@ -5,13 +5,6 @@ pipeline {
         DEVOPS_BATCH="AUG2022"
 }
 
-    parameters {
-        choice(name: 'DEPLOYMENT_ENV', choices: ['UAT', 'UAT2', 'PREPOD'], 
-        description: 'SELECT YOUR CHOICE')
-
-        string (name: 'DUMMYSTR' ,
-        description : 'just a dummy value' ,
-        defaultValue: 'Sukhi')
 }
 
 triggers { 
