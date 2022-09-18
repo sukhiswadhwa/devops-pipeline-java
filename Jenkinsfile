@@ -7,9 +7,6 @@ pipeline {
 
 }
 
-triggers { 
-    pollSCM('* * * * *') 
-}
 
 options {
   buildDiscarder logRotator(artifactDaysToKeepStr: '2', artifactNumToKeepStr: '', daysToKeepStr: '1', numToKeepStr: '2')
