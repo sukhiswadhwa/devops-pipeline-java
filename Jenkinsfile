@@ -5,9 +5,6 @@ pipeline {
         DEVOPS_BATCH="AUG2022"
 }
 
-}
-
-
 options {
   buildDiscarder logRotator(artifactDaysToKeepStr: '2', artifactNumToKeepStr: '', daysToKeepStr: '1', numToKeepStr: '2')
 }
